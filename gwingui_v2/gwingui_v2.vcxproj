@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gwinguiv2\config\themebitmaps.cpp" />
+    <ClCompile Include="gwinguiv2\config\themefont.cpp" />
+    <ClCompile Include="gwinguiv2\config\themecolors.cpp" />
+    <ClCompile Include="gwinguiv2\config\theme_constants.cpp" />
+    <ClCompile Include="gwinguiv2\controls\button.cpp" />
+    <ClCompile Include="gwinguiv2\controls\checkbox.cpp" />
+    <ClCompile Include="gwinguiv2\controls\combobox.cpp" />
+    <ClCompile Include="gwinguiv2\controls\control.cpp" />
+    <ClCompile Include="gwinguiv2\controls\editcontrol.cpp" />
+    <ClCompile Include="gwinguiv2\controls\hotkey.cpp" />
+    <ClCompile Include="gwinguiv2\controls\listbox.cpp" />
+    <ClCompile Include="gwinguiv2\controls\listview.cpp" />
+    <ClCompile Include="gwinguiv2\controls\picturebox.cpp" />
+    <ClCompile Include="gwinguiv2\controls\progressbar.cpp" />
+    <ClCompile Include="gwinguiv2\controls\radiobutton.cpp" />
+    <ClCompile Include="gwinguiv2\controls\richedit.cpp" />
+    <ClCompile Include="gwinguiv2\controls\tabcontrol.cpp" />
+    <ClCompile Include="gwinguiv2\controls\trackbar.cpp" />
+    <ClCompile Include="gwinguiv2\controls\treeview.cpp" />
+    <ClCompile Include="gwinguiv2\drawing.cpp" />
+    <ClCompile Include="gwinguiv2\gui.cpp" />
+    <ClCompile Include="gwinguiv2\message_box.cpp" />
+    <ClCompile Include="gwinguiv2\pch\pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\theme\button_theme.cpp" />
+    <ClCompile Include="gwinguiv2\theme\checkbox_theme.cpp" />
+    <ClCompile Include="gwinguiv2\theme\combobox_theme.cpp" />
+    <ClCompile Include="gwinguiv2\theme\context_menu.cpp" />
+    <ClCompile Include="gwinguiv2\theme\editcontrol_theme.cpp" />
+    <ClCompile Include="gwinguiv2\theme\groupbox_theme.cpp" />
+    <ClCompile Include="gwinguiv2\theme\header_theme.cpp" />
+    <ClCompile Include="gwinguiv2\theme\hotkey_theme.cpp" />
+    <ClCompile Include="gwinguiv2\theme\listbox_theme.cpp" />
+    <ClCompile Include="gwinguiv2\theme\listview_theme.cpp" />
+    <ClCompile Include="gwinguiv2\theme\progressbar_theme.cpp" />
+    <ClCompile Include="gwinguiv2\theme\radiobutton_theme.cpp" />
+    <ClCompile Include="gwinguiv2\theme\richedit_theme.cpp" />
+    <ClCompile Include="gwinguiv2\theme\tabcontrol_theme.cpp" />
+    <ClCompile Include="gwinguiv2\theme\theme.cpp" />
+    <ClCompile Include="gwinguiv2\theme\titlebar.cpp" />
+    <ClCompile Include="gwinguiv2\theme\trackbar_theme.cpp" />
+    <ClCompile Include="gwinguiv2\utils\mouse_tracker.cpp" />
+    <ClCompile Include="gwinguiv2\window.cpp" />
+    <ClCompile Include="gwinguiv2\window_manager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gwinguiv2\config\res\theme_bitmap_buffers.h" />
+    <ClInclude Include="gwinguiv2\config\themebitmaps.h" />
+    <ClInclude Include="gwinguiv2\config\themefont.h" />
+    <ClInclude Include="gwinguiv2\config\themecolors.h" />
+    <ClInclude Include="gwinguiv2\config\theme_constants.h" />
+    <ClInclude Include="gwinguiv2\controls\button.h" />
+    <ClInclude Include="gwinguiv2\controls\checkbox.h" />
+    <ClInclude Include="gwinguiv2\controls\combobox.h" />
+    <ClInclude Include="gwinguiv2\controls\control.h" />
+    <ClInclude Include="gwinguiv2\controls\editcontrol.h" />
+    <ClInclude Include="gwinguiv2\controls\hotkey.h" />
+    <ClInclude Include="gwinguiv2\controls\listbox.h" />
+    <ClInclude Include="gwinguiv2\controls\listview.h" />
+    <ClInclude Include="gwinguiv2\controls\picturebox.h" />
+    <ClInclude Include="gwinguiv2\controls\progressbar.h" />
+    <ClInclude Include="gwinguiv2\controls\radiobutton.h" />
+    <ClInclude Include="gwinguiv2\controls\richedit.h" />
+    <ClInclude Include="gwinguiv2\controls\tabcontrol.h" />
+    <ClInclude Include="gwinguiv2\controls\trackbar.h" />
+    <ClInclude Include="gwinguiv2\controls\treeview.h" />
+    <ClInclude Include="gwinguiv2\drawing.h" />
+    <ClInclude Include="gwinguiv2\gui.h" />
+    <ClInclude Include="gwinguiv2\message_box.h" />
+    <ClInclude Include="gwinguiv2\pch\pch.h" />
+    <ClInclude Include="gwinguiv2\theme\button_theme.h" />
+    <ClInclude Include="gwinguiv2\theme\checkbox_theme.h" />
+    <ClInclude Include="gwinguiv2\theme\combobox_theme.h" />
+    <ClInclude Include="gwinguiv2\theme\context_menu.h" />
+    <ClInclude Include="gwinguiv2\theme\editcontrol_theme.h" />
+    <ClInclude Include="gwinguiv2\theme\groupbox_theme.h" />
+    <ClInclude Include="gwinguiv2\theme\header_theme.h" />
+    <ClInclude Include="gwinguiv2\theme\hotkey_theme.h" />
+    <ClInclude Include="gwinguiv2\theme\listbox_theme.h" />
+    <ClInclude Include="gwinguiv2\theme\listview_theme.h" />
+    <ClInclude Include="gwinguiv2\theme\progressbar_theme.h" />
+    <ClInclude Include="gwinguiv2\theme\radiobutton_theme.h" />
+    <ClInclude Include="gwinguiv2\theme\richedit_theme.h" />
+    <ClInclude Include="gwinguiv2\theme\tabcontrol_theme.h" />
+    <ClInclude Include="gwinguiv2\theme\theme.h" />
+    <ClInclude Include="gwinguiv2\theme\titlebar.h" />
+    <ClInclude Include="gwinguiv2\theme\titlebar_button.h" />
+    <ClInclude Include="gwinguiv2\theme\titlebar_button_bitmap.h" />
+    <ClInclude Include="gwinguiv2\theme\titlebar_button_text.h" />
+    <ClInclude Include="gwinguiv2\theme\titlebar_button_text_menu_item.h" />
+    <ClInclude Include="gwinguiv2\theme\trackbar_theme.h" />
+    <ClInclude Include="gwinguiv2\utils\mouse_tracker.h" />
+    <ClInclude Include="gwinguiv2\utils\safe_handles.h" />
+    <ClInclude Include="gwinguiv2\window.h" />
+    <ClInclude Include="gwinguiv2\window_manager.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{042fb1bb-4d99-410b-9886-cd7a55cde1fd}</ProjectGuid>
+    <RootNamespace>gwingui_v2</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)$(ProjectName)\intermediates\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)$(ProjectName)\intermediates\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)$(ProjectName)\intermediates\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)$(ProjectName)\intermediates\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)gwinguiv2\pch\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)gwinguiv2\pch\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)gwinguiv2\pch\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)gwinguiv2\pch\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gwinguiv2\pch\pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\gui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\drawing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\theme\titlebar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\controls\control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\config\theme_constants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\config\themebitmaps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\controls\button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\controls\checkbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\controls\combobox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\controls\editcontrol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\controls\listbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\controls\listview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\controls\picturebox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\controls\progressbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\controls\radiobutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\controls\richedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\controls\tabcontrol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\controls\trackbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\controls\treeview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\window_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\theme\button_theme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\theme\theme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\theme\checkbox_theme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\config\themefont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\theme\radiobutton_theme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\theme\groupbox_theme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\theme\editcontrol_theme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\theme\combobox_theme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\theme\listbox_theme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\theme\listview_theme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\theme\header_theme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\theme\trackbar_theme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\config\themecolors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\theme\richedit_theme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\theme\tabcontrol_theme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\utils\mouse_tracker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\message_box.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\theme\progressbar_theme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\theme\context_menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\theme\hotkey_theme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gwinguiv2\controls\hotkey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gwinguiv2\pch\pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\gui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\drawing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\utils\safe_handles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\theme\titlebar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\controls\control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\config\theme_constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\theme\titlebar_button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\config\themebitmaps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\config\res\theme_bitmap_buffers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\controls\button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\controls\checkbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\controls\combobox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\controls\editcontrol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\controls\listbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\controls\listview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\controls\picturebox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\controls\progressbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\controls\radiobutton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\controls\richedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\controls\tabcontrol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\controls\trackbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\controls\treeview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\window_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\theme\button_theme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\theme\theme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\config\themefont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\theme\checkbox_theme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\theme\radiobutton_theme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\theme\groupbox_theme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\theme\editcontrol_theme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\theme\combobox_theme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\theme\listbox_theme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\theme\listview_theme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\theme\header_theme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\theme\trackbar_theme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\config\themecolors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\theme\richedit_theme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\theme\tabcontrol_theme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\utils\mouse_tracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\message_box.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\theme\progressbar_theme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\theme\titlebar_button_text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\theme\titlebar_button_bitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\theme\context_menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\theme\titlebar_button_text_menu_item.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\theme\hotkey_theme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gwinguiv2\controls\hotkey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
